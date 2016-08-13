@@ -1,0 +1,626 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"61 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/gpio.c
+[e E3211 . `uc
+PA_0 0
+PA_1 1
+PA_2 2
+PA_3 3
+PA_4 4
+PA_5 5
+PA_6 6
+PA_7 7
+PB_0 8
+PB_1 9
+PB_2 10
+PB_3 11
+PB_4 12
+PB_5 13
+PB_6 14
+PB_7 15
+PC_0 16
+PC_1 17
+PC_2 18
+PC_3 19
+PC_4 20
+PC_5 21
+PC_6 22
+PC_7 23
+PD_0 24
+PD_1 25
+PD_2 26
+PD_3 27
+PD_4 28
+PD_5 29
+PD_6 30
+PD_7 31
+PE_0 32
+PE_1 33
+PE_2 34
+PE_3 35
+PE_4 36
+PE_5 37
+PE_6 38
+PE_7 39
+P_NC 255
+]
+"89 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
+[e E3222 . `uc
+PA_0 0
+PA_1 1
+PA_2 2
+PA_3 3
+PA_4 4
+PA_5 5
+PA_6 6
+PA_7 7
+PB_0 8
+PB_1 9
+PB_2 10
+PB_3 11
+PB_4 12
+PB_5 13
+PB_6 14
+PB_7 15
+PC_0 16
+PC_1 17
+PC_2 18
+PC_3 19
+PC_4 20
+PC_5 21
+PC_6 22
+PC_7 23
+PD_0 24
+PD_1 25
+PD_2 26
+PD_3 27
+PD_4 28
+PD_5 29
+PD_6 30
+PD_7 31
+PE_0 32
+PE_1 33
+PE_2 34
+PE_3 35
+PE_4 36
+PE_5 37
+PE_6 38
+PE_7 39
+P_NC 255
+]
+"49 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\07d-ADC_LCD.X.X\main.c
+[e E3214 . `uc
+PA_0 0
+PA_1 1
+PA_2 2
+PA_3 3
+PA_4 4
+PA_5 5
+PA_6 6
+PA_7 7
+PB_0 8
+PB_1 9
+PB_2 10
+PB_3 11
+PB_4 12
+PB_5 13
+PB_6 14
+PB_7 15
+PC_0 16
+PC_1 17
+PC_2 18
+PC_3 19
+PC_4 20
+PC_5 21
+PC_6 22
+PC_7 23
+PD_0 24
+PD_1 25
+PD_2 26
+PD_3 27
+PD_4 28
+PD_5 29
+PD_6 30
+PD_7 31
+PE_0 32
+PE_1 33
+PE_2 34
+PE_3 35
+PE_4 36
+PE_5 37
+PE_6 38
+PE_7 39
+P_NC 255
+]
+"54 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/adc.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"76
+[v _ADC_GetAdcValue ADC_GetAdcValue `(ui  1 e 2 0 ]
+"56 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
+[v _DELAY_us DELAY_us `(v  1 e 1 0 ]
+"75
+[v _DELAY_ms DELAY_ms `(v  1 e 1 0 ]
+"60 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/gpio.c
+[v _GPIO_PinDirection GPIO_PinDirection `(v  1 e 1 0 ]
+"127
+[v _GPIO_PinWrite GPIO_PinWrite `(v  1 e 1 0 ]
+"192
+[v _GPIO_PinRead GPIO_PinRead `(uc  1 e 1 0 ]
+"135 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
+[v _LCD_SetUp LCD_SetUp `(v  1 e 1 0 ]
+"198
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"237
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"265
+[v _LCD_GoToLine LCD_GoToLine `(v  1 e 1 0 ]
+"292
+[v _LCD_GoToNextLine LCD_GoToNextLine `(v  1 e 1 0 ]
+"358
+[v _LCD_CmdWrite LCD_CmdWrite `(v  1 e 1 0 ]
+"392
+[v _LCD_DisplayChar LCD_DisplayChar `(v  1 e 1 0 ]
+"427
+[v _LCD_DisplayString LCD_DisplayString `(v  1 e 1 0 ]
+"529
+[v _LCD_DisplayNumber LCD_DisplayNumber `(v  1 e 1 0 ]
+"616
+[v _LCD_DisplayFloatNumber LCD_DisplayFloatNumber `(v  1 e 1 0 ]
+"676
+[v _LCD_Printf LCD_Printf `(v  1 e 1 0 ]
+"826
+[v _lcd_DataWrite lcd_DataWrite `(v  1 s 1 lcd_DataWrite ]
+"860
+[v _lcd_BusyCheck lcd_BusyCheck `(v  1 s 1 lcd_BusyCheck ]
+"913
+[v _lcd_Reset lcd_Reset `(v  1 s 1 lcd_Reset ]
+"943
+[v _lcd_SendHigherNibble lcd_SendHigherNibble `(v  1 s 1 lcd_SendHigherNibble ]
+"962
+[v _lcd_SendLowerNibble lcd_SendLowerNibble `(v  1 s 1 lcd_SendLowerNibble ]
+"981
+[v _lcd_SendCmdSignals lcd_SendCmdSignals `(v  1 s 1 lcd_SendCmdSignals ]
+"1002
+[v _lcd_SendDataSignals lcd_SendDataSignals `(v  1 s 1 lcd_SendDataSignals ]
+"32 C:\Program Files\Microchip\xc8\v1.36\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v1.36\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"35 C:\Program Files\Microchip\xc8\v1.36\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"41 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\07d-ADC_LCD.X.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"87 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
+[v _v_LcdTrackLineNum_U8 v_LcdTrackLineNum_U8 `uc  1 e 1 0 ]
+"88
+[v _v_LcdTrackCursorPos_U8 v_LcdTrackCursorPos_U8 `uc  1 e 1 0 ]
+[s S152 . 14 `uc 1 v_MaxSupportedLines_U8 1 0 `uc 1 v_MaxSupportedChars_U8 1 1 `uc 1 v_LcdMode_U8 1 2 `E3222 1 RS 1 3 `E3222 1 RW 1 4 `E3222 1 EN 1 5 `E3222 1 D0 1 6 `E3222 1 D1 1 7 `E3222 1 D2 1 8 `E3222 1 D3 1 9 `E3222 1 D4 1 10 `E3222 1 D5 1 11 `E3222 1 D6 1 12 `E3222 1 D7 1 13 ]
+"89
+[v _LCDConfig LCDConfig `S152  1 e 14 0 ]
+"90
+[v _ARR_LcdLineNumAddress_U8 ARR_LcdLineNumAddress_U8 `[4]uc  1 e 4 0 ]
+"49 C:\Program Files\Microchip\xc8\v1.36\include\pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"269
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"447
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"631
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"772
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"992
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1124
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1256
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1388
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1520
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1577
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1798
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2019
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2240
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2461
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4739
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4809
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4899
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"5023
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"5029
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7130
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"7360
+[v _GO GO `VEb  1 e 0 @32273 ]
+"7364
+[v _GO_DONE GO_DONE `VEb  1 e 0 @32273 ]
+"41 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\07d-ADC_LCD.X.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"44
+[v main@volt volt `f  1 a 3 80 ]
+"43
+[v main@adcValue adcValue `i  1 a 2 83 ]
+"61
+} 0
+"54 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 37 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 41 ]
+[v ___ftdiv@exp exp `uc  1 a 1 40 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 36 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 27 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 30 ]
+"86
+} 0
+"32 C:\Program Files\Microchip\xc8\v1.36\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 11 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"135 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
+[v _LCD_SetUp LCD_SetUp `(v  1 e 1 0 ]
+{
+[v LCD_SetUp@RS RS `E3222  1 a 1 wreg ]
+[v LCD_SetUp@RS RS `E3222  1 a 1 wreg ]
+[v LCD_SetUp@RW RW `E3222  1 p 1 5 ]
+"137
+[v LCD_SetUp@EN EN `E3222  1 p 1 6 ]
+"138
+[v LCD_SetUp@D0 D0 `E3222  1 p 1 7 ]
+"139
+[v LCD_SetUp@D1 D1 `E3222  1 p 1 8 ]
+"140
+[v LCD_SetUp@D2 D2 `E3222  1 p 1 9 ]
+"141
+[v LCD_SetUp@D3 D3 `E3222  1 p 1 10 ]
+"142
+[v LCD_SetUp@D4 D4 `E3222  1 p 1 11 ]
+"143
+[v LCD_SetUp@D5 D5 `E3222  1 p 1 12 ]
+"144
+[v LCD_SetUp@D6 D6 `E3222  1 p 1 13 ]
+"145
+[v LCD_SetUp@D7 D7 `E3222  1 p 1 14 ]
+"148
+[v LCD_SetUp@RS RS `E3222  1 a 1 15 ]
+"184
+} 0
+"676
+[v _LCD_Printf LCD_Printf `(v  1 e 1 0 ]
+{
+"683
+[v LCD_Printf@v_num_u32 v_num_u32 `ul  1 a 4 68 ]
+"681
+[v LCD_Printf@v_num_s32 v_num_s32 `l  1 a 4 62 ]
+"688
+[v LCD_Printf@v_floatNum_f32 v_floatNum_f32 `d  1 a 3 57 ]
+"679
+[v LCD_Printf@argp argp `[1]*.39v  1 a 2 78 ]
+"678
+[v LCD_Printf@ptr ptr `*.25Cuc  1 a 2 74 ]
+"682
+[v LCD_Printf@v_num_u16 v_num_u16 `ui  1 a 2 72 ]
+"680
+[v LCD_Printf@v_num_s16 v_num_s16 `i  1 a 2 66 ]
+"684
+[v LCD_Printf@str str `*.2uc  1 a 2 60 ]
+"686
+[v LCD_Printf@v_numOfDigitsToDisp_u8 v_numOfDigitsToDisp_u8 `uc  1 a 1 77 ]
+"685
+[v LCD_Printf@ch ch `uc  1 a 1 76 ]
+"676
+[v LCD_Printf@argList argList `*.25Cuc  1 p 2 50 ]
+"810
+} 0
+"427
+[v _LCD_DisplayString LCD_DisplayString `(v  1 e 1 0 ]
+{
+[v LCD_DisplayString@ptr_stringPointer_u8 ptr_stringPointer_u8 `*.2Cuc  1 p 2 8 ]
+"431
+} 0
+"616
+[v _LCD_DisplayFloatNumber LCD_DisplayFloatNumber `(v  1 e 1 0 ]
+{
+"618
+[v LCD_DisplayFloatNumber@v_decNumber_u32 v_decNumber_u32 `ul  1 a 4 46 ]
+"616
+[v LCD_DisplayFloatNumber@v_floatNum_f32 v_floatNum_f32 `d  1 p 3 43 ]
+"633
+} 0
+"35 C:\Program Files\Microchip\xc8\v1.36\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+{
+"37
+[v ___lltoft@exp exp `uc  1 a 1 16 ]
+"35
+[v ___lltoft@c c `ul  1 p 4 8 ]
+"46
+} 0
+"44 C:\Program Files\Microchip\xc8\v1.36\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 37 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 41 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 36 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 27 ]
+"73
+} 0
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 17 ]
+"20
+} 0
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 22 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 26 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 25 ]
+[v ___ftmul@exp exp `uc  1 a 1 21 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 12 ]
+[v ___ftmul@f2 f2 `f  1 p 3 15 ]
+"157
+} 0
+"86 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 31 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 30 ]
+[v ___ftadd@sign sign `uc  1 a 1 29 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 20 ]
+[v ___ftadd@f2 f2 `f  1 p 3 23 ]
+"148
+} 0
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"529 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
+[v _LCD_DisplayNumber LCD_DisplayNumber `(v  1 e 1 0 ]
+{
+[v LCD_DisplayNumber@v_numericSystem_u8 v_numericSystem_u8 `uc  1 a 1 wreg ]
+"531
+[v LCD_DisplayNumber@a a `[10]uc  1 a 10 29 ]
+[v LCD_DisplayNumber@i i `uc  1 a 1 42 ]
+"529
+[v LCD_DisplayNumber@v_numericSystem_u8 v_numericSystem_u8 `uc  1 a 1 wreg ]
+[v LCD_DisplayNumber@v_number_u32 v_number_u32 `ul  1 p 4 13 ]
+[v LCD_DisplayNumber@v_numOfDigitsToDisplay_u8 v_numOfDigitsToDisplay_u8 `uc  1 p 1 17 ]
+"531
+[v LCD_DisplayNumber@v_numericSystem_u8 v_numericSystem_u8 `uc  1 a 1 41 ]
+"591
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0
+"392 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
+[v _LCD_DisplayChar LCD_DisplayChar `(v  1 e 1 0 ]
+{
+[v LCD_DisplayChar@v_lcdData_u8 v_lcdData_u8 `uc  1 a 1 wreg ]
+[v LCD_DisplayChar@v_lcdData_u8 v_lcdData_u8 `uc  1 a 1 wreg ]
+"394
+[v LCD_DisplayChar@v_lcdData_u8 v_lcdData_u8 `uc  1 a 1 7 ]
+"406
+} 0
+"826
+[v _lcd_DataWrite lcd_DataWrite `(v  1 s 1 lcd_DataWrite ]
+{
+[v lcd_DataWrite@dataByte dataByte `uc  1 a 1 wreg ]
+[v lcd_DataWrite@dataByte dataByte `uc  1 a 1 wreg ]
+"828
+[v lcd_DataWrite@dataByte dataByte `uc  1 a 1 6 ]
+"842
+} 0
+"1002
+[v _lcd_SendDataSignals lcd_SendDataSignals `(v  1 s 1 lcd_SendDataSignals ]
+{
+"1009
+} 0
+"292
+[v _LCD_GoToNextLine LCD_GoToNextLine `(v  1 e 1 0 ]
+{
+"301
+} 0
+"198
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+[v LCD_Init@v_lcdNoOfLines_u8 v_lcdNoOfLines_u8 `uc  1 a 1 wreg ]
+[v LCD_Init@v_lcdNoOfLines_u8 v_lcdNoOfLines_u8 `uc  1 a 1 wreg ]
+[v LCD_Init@v_MaxCharsPerLine_u8 v_MaxCharsPerLine_u8 `uc  1 p 1 8 ]
+"202
+[v LCD_Init@v_lcdNoOfLines_u8 v_lcdNoOfLines_u8 `uc  1 a 1 9 ]
+"224
+} 0
+"913
+[v _lcd_Reset lcd_Reset `(v  1 s 1 lcd_Reset ]
+{
+"928
+} 0
+"237
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"241
+} 0
+"265
+[v _LCD_GoToLine LCD_GoToLine `(v  1 e 1 0 ]
+{
+[v LCD_GoToLine@v_lineNumber_u8 v_lineNumber_u8 `uc  1 a 1 wreg ]
+[v LCD_GoToLine@v_lineNumber_u8 v_lineNumber_u8 `uc  1 a 1 wreg ]
+"267
+[v LCD_GoToLine@v_lineNumber_u8 v_lineNumber_u8 `uc  1 a 1 7 ]
+"275
+} 0
+"358
+[v _LCD_CmdWrite LCD_CmdWrite `(v  1 e 1 0 ]
+{
+[v LCD_CmdWrite@v_lcdCmd_u8 v_lcdCmd_u8 `uc  1 a 1 wreg ]
+[v LCD_CmdWrite@v_lcdCmd_u8 v_lcdCmd_u8 `uc  1 a 1 wreg ]
+"360
+[v LCD_CmdWrite@v_lcdCmd_u8 v_lcdCmd_u8 `uc  1 a 1 6 ]
+"374
+} 0
+"962
+[v _lcd_SendLowerNibble lcd_SendLowerNibble `(v  1 s 1 lcd_SendLowerNibble ]
+{
+[v lcd_SendLowerNibble@dataByte dataByte `uc  1 a 1 wreg ]
+[v lcd_SendLowerNibble@dataByte dataByte `uc  1 a 1 wreg ]
+"964
+[v lcd_SendLowerNibble@dataByte dataByte `uc  1 a 1 5 ]
+"968
+} 0
+"943
+[v _lcd_SendHigherNibble lcd_SendHigherNibble `(v  1 s 1 lcd_SendHigherNibble ]
+{
+[v lcd_SendHigherNibble@dataByte dataByte `uc  1 a 1 wreg ]
+[v lcd_SendHigherNibble@dataByte dataByte `uc  1 a 1 wreg ]
+"945
+[v lcd_SendHigherNibble@dataByte dataByte `uc  1 a 1 5 ]
+"949
+} 0
+"981
+[v _lcd_SendCmdSignals lcd_SendCmdSignals `(v  1 s 1 lcd_SendCmdSignals ]
+{
+"989
+} 0
+"860
+[v _lcd_BusyCheck lcd_BusyCheck `(v  1 s 1 lcd_BusyCheck ]
+{
+"862
+[v lcd_BusyCheck@busyflag busyflag `uc  1 a 1 5 ]
+"897
+} 0
+"127 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/gpio.c
+[v _GPIO_PinWrite GPIO_PinWrite `(v  1 e 1 0 ]
+{
+[v GPIO_PinWrite@enm_pinNumber enm_pinNumber `E3211  1 a 1 wreg ]
+"130
+[v GPIO_PinWrite@var_portNumber_u8 var_portNumber_u8 `uc  1 a 1 3 ]
+"127
+[v GPIO_PinWrite@enm_pinNumber enm_pinNumber `E3211  1 a 1 wreg ]
+[v GPIO_PinWrite@var_pinValue_u8 var_pinValue_u8 `uc  1 p 1 0 ]
+"133
+[v GPIO_PinWrite@enm_pinNumber enm_pinNumber `E3211  1 a 1 4 ]
+"170
+} 0
+"192
+[v _GPIO_PinRead GPIO_PinRead `(uc  1 e 1 0 ]
+{
+[v GPIO_PinRead@enm_pinNumber enm_pinNumber `E3211  1 a 1 wreg ]
+"195
+[v GPIO_PinRead@returnStatus returnStatus `uc  1 a 1 3 ]
+"194
+[v GPIO_PinRead@var_portNumber_u8 var_portNumber_u8 `uc  1 a 1 2 ]
+"192
+[v GPIO_PinRead@enm_pinNumber enm_pinNumber `E3211  1 a 1 wreg ]
+"195
+[v GPIO_PinRead@enm_pinNumber enm_pinNumber `E3211  1 a 1 4 ]
+"231
+} 0
+"60
+[v _GPIO_PinDirection GPIO_PinDirection `(v  1 e 1 0 ]
+{
+[v GPIO_PinDirection@enm_pinNumber enm_pinNumber `E3211  1 a 1 wreg ]
+"63
+[v GPIO_PinDirection@var_portNumber_u8 var_portNumber_u8 `uc  1 a 1 3 ]
+"60
+[v GPIO_PinDirection@enm_pinNumber enm_pinNumber `E3211  1 a 1 wreg ]
+[v GPIO_PinDirection@var_pinDirn_u8 var_pinDirn_u8 `uc  1 p 1 0 ]
+"66
+[v GPIO_PinDirection@enm_pinNumber enm_pinNumber `E3211  1 a 1 4 ]
+"102
+} 0
+"75 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
+[v _DELAY_ms DELAY_ms `(v  1 e 1 0 ]
+{
+[v DELAY_ms@ms_count ms_count `ui  1 p 2 2 ]
+"82
+} 0
+"54 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/adc.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"59
+} 0
+"76
+[v _ADC_GetAdcValue ADC_GetAdcValue `(ui  1 e 2 0 ]
+{
+[v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 wreg ]
+[v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 wreg ]
+"79
+[v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 6 ]
+"88
+} 0
+"56 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
+[v _DELAY_us DELAY_us `(v  1 e 1 0 ]
+{
+[v DELAY_us@us_count us_count `ui  1 p 2 0 ]
+"62
+} 0

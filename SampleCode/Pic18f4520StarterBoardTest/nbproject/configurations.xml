@@ -19,22 +19,25 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>main.c</itemPath>
-    <itemPath>adc.c</itemPath>
-    <itemPath>adc.h</itemPath>
-    <itemPath>delay.c</itemPath>
-    <itemPath>delay.h</itemPath>
-    <itemPath>eeprom.c</itemPath>
-    <itemPath>eeprom.h</itemPath>
-    <itemPath>gpio.c</itemPath>
-    <itemPath>gpio.h</itemPath>
-    <itemPath>lcd.c</itemPath>
-    <itemPath>lcd.h</itemPath>
-    <itemPath>stdutils.h</itemPath>
-    <itemPath>uart.c</itemPath>
-    <itemPath>uart.h</itemPath>
+    <itemPath>../00-libfiles/adc.c</itemPath>
+    <itemPath>../00-libfiles/adc.h</itemPath>
+    <itemPath>../00-libfiles/delay.c</itemPath>
+    <itemPath>../00-libfiles/delay.h</itemPath>
+    <itemPath>../00-libfiles/eeprom.c</itemPath>
+    <itemPath>../00-libfiles/eeprom.h</itemPath>
+    <itemPath>../00-libfiles/gpio.c</itemPath>
+    <itemPath>../00-libfiles/gpio.h</itemPath>
+    <itemPath>../00-libfiles/keypad.c</itemPath>
+    <itemPath>../00-libfiles/keypad.h</itemPath>
+    <itemPath>../00-libfiles/lcd.c</itemPath>
+    <itemPath>../00-libfiles/lcd.h</itemPath>
+    <itemPath>../00-libfiles/stdutils.h</itemPath>
+    <itemPath>../00-libfiles/uart.c</itemPath>
+    <itemPath>../00-libfiles/uart.h</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>.</Elem>
+    <Elem>../00-libfiles</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -74,7 +77,7 @@
       <HI-TECH-COMP>
         <property key="asmlist" value="true"/>
         <property key="define-macros" value=""/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories" value="..\00-libfiles"/>
         <property key="identifier-length" value="255"/>
         <property key="operation-mode" value="free"/>
         <property key="opt-xc8-compiler-strict_ansi" value="false"/>

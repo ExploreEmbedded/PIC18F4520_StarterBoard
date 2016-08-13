@@ -1,0 +1,298 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"54 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/adc.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"76
+[v _ADC_GetAdcValue ADC_GetAdcValue `(ui  1 e 2 0 ]
+"56 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
+[v _DELAY_us DELAY_us `(v  1 e 1 0 ]
+"75
+[v _DELAY_ms DELAY_ms `(v  1 e 1 0 ]
+"66 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/uart.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"91
+[v _UART_SetBaudRate UART_SetBaudRate `(v  1 e 1 0 ]
+"123
+[v _UART_RxChar UART_RxChar `(uc  1 e 1 0 ]
+"145
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+"169
+[v _UART_TxString UART_TxString `(v  1 e 1 0 ]
+"260
+[v _UART_TxNumber UART_TxNumber `(v  1 e 1 0 ]
+"350
+[v _UART_TxFloatNumber UART_TxFloatNumber `(v  1 e 1 0 ]
+"413
+[v _UART_Printf UART_Printf `(v  1 e 1 0 ]
+"32 C:\Program Files\Microchip\xc8\v1.36\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v1.36\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"35 C:\Program Files\Microchip\xc8\v1.36\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"41 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\07b-Adc_RawValue_Voltage.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"2019 C:\Program Files\Microchip\xc8\v1.36\include\pic18f4520.h
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"3203
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3412
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3709
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3720
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3731
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4739
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4809
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4899
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"5023
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"5029
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7130
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"7360
+[v _GO GO `VEb  1 e 0 @32273 ]
+"7364
+[v _GO_DONE GO_DONE `VEb  1 e 0 @32273 ]
+"7862
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"8232
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"41 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\07b-Adc_RawValue_Voltage.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"44
+[v main@volt volt `f  1 a 3 80 ]
+"43
+[v main@adcValue adcValue `i  1 a 2 83 ]
+"57
+} 0
+"54 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 37 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 41 ]
+[v ___ftdiv@exp exp `uc  1 a 1 40 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 36 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 27 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 30 ]
+"86
+} 0
+"32 C:\Program Files\Microchip\xc8\v1.36\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 11 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"413 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/uart.c
+[v _UART_Printf UART_Printf `(v  1 e 1 0 ]
+{
+"420
+[v UART_Printf@v_num_u32 v_num_u32 `ul  1 a 4 68 ]
+"418
+[v UART_Printf@v_num_s32 v_num_s32 `l  1 a 4 62 ]
+"425
+[v UART_Printf@v_floatNum_f32 v_floatNum_f32 `d  1 a 3 57 ]
+"416
+[v UART_Printf@argp argp `[1]*.39v  1 a 2 78 ]
+"415
+[v UART_Printf@ptr ptr `*.25Cuc  1 a 2 74 ]
+"419
+[v UART_Printf@v_num_u16 v_num_u16 `ui  1 a 2 72 ]
+"417
+[v UART_Printf@v_num_s16 v_num_s16 `i  1 a 2 66 ]
+"421
+[v UART_Printf@str str `*.2uc  1 a 2 60 ]
+"423
+[v UART_Printf@v_numOfDigitsToTransmit_u8 v_numOfDigitsToTransmit_u8 `uc  1 a 1 77 ]
+"422
+[v UART_Printf@ch ch `uc  1 a 1 76 ]
+"413
+[v UART_Printf@argList argList `*.25Cuc  1 p 2 50 ]
+"552
+} 0
+"169
+[v _UART_TxString UART_TxString `(v  1 e 1 0 ]
+{
+[v UART_TxString@ptr_string ptr_string `*.2Cuc  1 p 2 1 ]
+"173
+} 0
+"350
+[v _UART_TxFloatNumber UART_TxFloatNumber `(v  1 e 1 0 ]
+{
+"352
+[v UART_TxFloatNumber@v_decNumber_u32 v_decNumber_u32 `ul  1 a 4 46 ]
+"350
+[v UART_TxFloatNumber@v_floatNumber_f32 v_floatNumber_f32 `f  1 p 3 43 ]
+"367
+} 0
+"35 C:\Program Files\Microchip\xc8\v1.36\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+{
+"37
+[v ___lltoft@exp exp `uc  1 a 1 16 ]
+"35
+[v ___lltoft@c c `ul  1 p 4 8 ]
+"46
+} 0
+"44 C:\Program Files\Microchip\xc8\v1.36\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 37 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 41 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 36 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 27 ]
+"73
+} 0
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 17 ]
+"20
+} 0
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 22 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 26 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 25 ]
+[v ___ftmul@exp exp `uc  1 a 1 21 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 12 ]
+[v ___ftmul@f2 f2 `f  1 p 3 15 ]
+"157
+} 0
+"86 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 31 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 30 ]
+[v ___ftadd@sign sign `uc  1 a 1 29 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 20 ]
+[v ___ftadd@f2 f2 `f  1 p 3 23 ]
+"148
+} 0
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"260 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/uart.c
+[v _UART_TxNumber UART_TxNumber `(v  1 e 1 0 ]
+{
+[v UART_TxNumber@v_numericSystem_u8 v_numericSystem_u8 `uc  1 a 1 wreg ]
+"262
+[v UART_TxNumber@a a `[10]uc  1 a 10 29 ]
+[v UART_TxNumber@i i `uc  1 a 1 42 ]
+"260
+[v UART_TxNumber@v_numericSystem_u8 v_numericSystem_u8 `uc  1 a 1 wreg ]
+[v UART_TxNumber@v_number_u32 v_number_u32 `ul  1 p 4 13 ]
+[v UART_TxNumber@v_numOfDigitsToTransmit_u8 v_numOfDigitsToTransmit_u8 `uc  1 p 1 17 ]
+"262
+[v UART_TxNumber@v_numericSystem_u8 v_numericSystem_u8 `uc  1 a 1 41 ]
+"324
+} 0
+"145
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+{
+[v UART_TxChar@v_uartData_u8 v_uartData_u8 `uc  1 a 1 wreg ]
+[v UART_TxChar@v_uartData_u8 v_uartData_u8 `uc  1 a 1 wreg ]
+[v UART_TxChar@v_uartData_u8 v_uartData_u8 `uc  1 a 1 0 ]
+"150
+} 0
+"66
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+[v UART_Init@v_baudRate_u32 v_baudRate_u32 `ul  1 p 4 22 ]
+"72
+} 0
+"91
+[v _UART_SetBaudRate UART_SetBaudRate `(v  1 e 1 0 ]
+{
+"93
+[v UART_SetBaudRate@RegValue RegValue `uc  1 a 1 21 ]
+"91
+[v UART_SetBaudRate@v_baudRate_u32 v_baudRate_u32 `ul  1 p 4 13 ]
+"108
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0
+"54 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/adc.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"59
+} 0
+"76
+[v _ADC_GetAdcValue ADC_GetAdcValue `(ui  1 e 2 0 ]
+{
+[v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 wreg ]
+[v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 wreg ]
+"79
+[v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 6 ]
+"88
+} 0
+"56 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
+[v _DELAY_us DELAY_us `(v  1 e 1 0 ]
+{
+[v DELAY_us@us_count us_count `ui  1 p 2 0 ]
+"62
+} 0

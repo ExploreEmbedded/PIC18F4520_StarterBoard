@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F4520 ]
 [d frameptr 4065 ]
-"62 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\main.c
+"62 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\Pic18f4520StarterBoardTest\main.c
 [e E3220 . `uc
 PA_0 0
 PA_1 1
@@ -47,7 +47,7 @@ PE_6 38
 PE_7 39
 P_NC 255
 ]
-"61 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\gpio.c
+"61 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/gpio.c
 [e E3211 . `uc
 PA_0 0
 PA_1 1
@@ -91,7 +91,51 @@ PE_6 38
 PE_7 39
 P_NC 255
 ]
-"89 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\lcd.c
+"77 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/keypad.c
+[e E3211 . `uc
+PA_0 0
+PA_1 1
+PA_2 2
+PA_3 3
+PA_4 4
+PA_5 5
+PA_6 6
+PA_7 7
+PB_0 8
+PB_1 9
+PB_2 10
+PB_3 11
+PB_4 12
+PB_5 13
+PB_6 14
+PB_7 15
+PC_0 16
+PC_1 17
+PC_2 18
+PC_3 19
+PC_4 20
+PC_5 21
+PC_6 22
+PC_7 23
+PD_0 24
+PD_1 25
+PD_2 26
+PD_3 27
+PD_4 28
+PD_5 29
+PD_6 30
+PD_7 31
+PE_0 32
+PE_1 33
+PE_2 34
+PE_3 35
+PE_4 36
+PE_5 37
+PE_6 38
+PE_7 39
+P_NC 255
+]
+"89 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
 [e E3222 . `uc
 PA_0 0
 PA_1 1
@@ -135,47 +179,29 @@ PE_6 38
 PE_7 39
 P_NC 255
 ]
-"54 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\adc.c
+"54 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/adc.c
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
-"77
+"76
 [v _ADC_GetAdcValue ADC_GetAdcValue `(ui  1 e 2 0 ]
-"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\float.c
-[v ___ftpack __ftpack `(f  1 e 3 0 ]
-"86 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftadd.c
-[v ___ftadd __ftadd `(f  1 e 3 0 ]
-"54 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftdiv.c
-[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
-"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftmul.c
-[v ___ftmul __ftmul `(f  1 e 3 0 ]
-"20 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftsub.c
-[v ___ftsub __ftsub `(f  1 e 3 0 ]
-"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\lldiv.c
-[v ___lldiv __lldiv `(ul  1 e 4 0 ]
-"10 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcadd.c
-[v ___fladd __fladd `(d  1 e 3 0 ]
-"245
-[v ___flsub __flsub `(d  1 e 3 0 ]
-"11 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcdiv.c
-[v ___fldiv __fldiv `(d  1 e 3 0 ]
-"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcmul.c
-[v ___flmul __flmul `(d  1 e 3 0 ]
-"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\Umul32.c
-[v ___lmul __lmul `(ul  1 e 4 0 ]
-"56 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\delay.c
+"56 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
 [v _DELAY_us DELAY_us `(v  1 e 1 0 ]
 "75
 [v _DELAY_ms DELAY_ms `(v  1 e 1 0 ]
-"63 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\eeprom.c
+"63 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/eeprom.c
 [v _EEPROM_WriteByte EEPROM_WriteByte `(v  1 e 1 0 ]
 "93
 [v _EEPROM_ReadByte EEPROM_ReadByte `(uc  1 e 1 0 ]
-"60 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\gpio.c
+"60 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/gpio.c
 [v _GPIO_PinDirection GPIO_PinDirection `(v  1 e 1 0 ]
 "127
 [v _GPIO_PinWrite GPIO_PinWrite `(v  1 e 1 0 ]
 "192
 [v _GPIO_PinRead GPIO_PinRead `(uc  1 e 1 0 ]
-"135 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\lcd.c
+"155 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/keypad.c
+[v _keypad_WaitForKeyRelease keypad_WaitForKeyRelease `(v  1 s 1 keypad_WaitForKeyRelease ]
+"201
+[v _keypad_WaitForKeyPress keypad_WaitForKeyPress `(v  1 s 1 keypad_WaitForKeyPress ]
+"135 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
 [v _LCD_SetUp LCD_SetUp `(v  1 e 1 0 ]
 "198
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
@@ -205,19 +231,7 @@ P_NC 255
 [v _lcd_SendCmdSignals lcd_SendCmdSignals `(v  1 s 1 lcd_SendCmdSignals ]
 "1002
 [v _lcd_SendDataSignals lcd_SendDataSignals `(v  1 s 1 lcd_SendDataSignals ]
-"57 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\main.c
-[v _main main `(i  1 e 2 0 ]
-"120
-[v _led_Test led_Test `(v  1 e 1 0 ]
-"163
-[v _lcd_Test lcd_Test `(v  1 e 1 0 ]
-"176
-[v _switch_Test switch_Test `(v  1 e 1 0 ]
-"194
-[v _adc_Test adc_Test `(v  1 e 1 0 ]
-"205
-[v _eeprom_Test eeprom_Test `(v  1 e 1 0 ]
-"66 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\uart.c
+"66 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/uart.c
 [v _UART_Init UART_Init `(v  1 e 1 0 ]
 "91
 [v _UART_SetBaudRate UART_SetBaudRate `(v  1 e 1 0 ]
@@ -231,6 +245,55 @@ P_NC 255
 [v _UART_TxNumber UART_TxNumber `(v  1 e 1 0 ]
 "413
 [v _UART_Printf UART_Printf `(v  1 e 1 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"57 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\Pic18f4520StarterBoardTest\main.c
+[v _main main `(i  1 e 2 0 ]
+"120
+[v _led_Test led_Test `(v  1 e 1 0 ]
+"163
+[v _lcd_Test lcd_Test `(v  1 e 1 0 ]
+"176
+[v _switch_Test switch_Test `(v  1 e 1 0 ]
+"194
+[v _adc_Test adc_Test `(v  1 e 1 0 ]
+"205
+[v _eeprom_Test eeprom_Test `(v  1 e 1 0 ]
+"77 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/keypad.c
+[v _A_RowsPins_U8 A_RowsPins_U8 `[4]E3211  1 e 4 0 ]
+"78
+[v _A_ColsPins_U8 A_ColsPins_U8 `[4]E3211  1 e 4 0 ]
+"80
+[v _A_KeyLookUptable_U8 A_KeyLookUptable_U8 `C[4][4]uc  1 e 16 0 ]
+"87 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
+[v _v_LcdTrackLineNum_U8 v_LcdTrackLineNum_U8 `uc  1 e 1 0 ]
+"88
+[v _v_LcdTrackCursorPos_U8 v_LcdTrackCursorPos_U8 `uc  1 e 1 0 ]
+[s S415 . 14 `uc 1 v_MaxSupportedLines_U8 1 0 `uc 1 v_MaxSupportedChars_U8 1 1 `uc 1 v_LcdMode_U8 1 2 `E3222 1 RS 1 3 `E3222 1 RW 1 4 `E3222 1 EN 1 5 `E3222 1 D0 1 6 `E3222 1 D1 1 7 `E3222 1 D2 1 8 `E3222 1 D3 1 9 `E3222 1 D4 1 10 `E3222 1 D5 1 11 `E3222 1 D6 1 12 `E3222 1 D7 1 13 ]
+"89
+[v _LCDConfig LCDConfig `S415  1 e 14 0 ]
+"90
+[v _ARR_LcdLineNumAddress_U8 ARR_LcdLineNumAddress_U8 `[4]uc  1 e 4 0 ]
 "49 C:\Program Files\Microchip\xc8\v1.36\include\pic18f4520.h
 [v _PORTA PORTA `VEuc  1 e 1 @3968 ]
 "269
@@ -301,16 +364,7 @@ P_NC 255
 [v _RCIF RCIF `VEb  1 e 0 @31989 ]
 "8232
 [v _TXIF TXIF `VEb  1 e 0 @31988 ]
-"87 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\lcd.c
-[v _v_LcdTrackLineNum_U8 v_LcdTrackLineNum_U8 `uc  1 e 1 0 ]
-"88
-[v _v_LcdTrackCursorPos_U8 v_LcdTrackCursorPos_U8 `uc  1 e 1 0 ]
-[s S343 . 14 `uc 1 v_MaxSupportedLines_U8 1 0 `uc 1 v_MaxSupportedChars_U8 1 1 `uc 1 v_LcdMode_U8 1 2 `E3222 1 RS 1 3 `E3222 1 RW 1 4 `E3222 1 EN 1 5 `E3222 1 D0 1 6 `E3222 1 D1 1 7 `E3222 1 D2 1 8 `E3222 1 D3 1 9 `E3222 1 D4 1 10 `E3222 1 D5 1 11 `E3222 1 D6 1 12 `E3222 1 D7 1 13 ]
-"89
-[v _LCDConfig LCDConfig `S343  1 e 14 0 ]
-"90
-[v _ARR_LcdLineNumAddress_U8 ARR_LcdLineNumAddress_U8 `[4]uc  1 e 4 0 ]
-"57 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\main.c
+"57 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\Pic18f4520StarterBoardTest\main.c
 [v _main main `(i  1 e 2 0 ]
 {
 "60
@@ -335,7 +389,7 @@ P_NC 255
 {
 "170
 } 0
-"135 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\lcd.c
+"135 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/lcd.c
 [v _LCD_SetUp LCD_SetUp `(v  1 e 1 0 ]
 {
 [v LCD_SetUp@RS RS `E3222  1 a 1 wreg ]
@@ -465,7 +519,7 @@ P_NC 255
 [v lcd_BusyCheck@busyflag busyflag `uc  1 a 1 10 ]
 "897
 } 0
-"127 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\gpio.c
+"127 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/gpio.c
 [v _GPIO_PinWrite GPIO_PinWrite `(v  1 e 1 0 ]
 {
 [v GPIO_PinWrite@enm_pinNumber enm_pinNumber `E3211  1 a 1 wreg ]
@@ -505,13 +559,13 @@ P_NC 255
 [v GPIO_PinDirection@enm_pinNumber enm_pinNumber `E3211  1 a 1 4 ]
 "102
 } 0
-"75 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\delay.c
+"75 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
 [v _DELAY_ms DELAY_ms `(v  1 e 1 0 ]
 {
 [v DELAY_ms@ms_count ms_count `ui  1 p 2 2 ]
 "82
 } 0
-"205 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\main.c
+"205 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\Pic18f4520StarterBoardTest\main.c
 [v _eeprom_Test eeprom_Test `(v  1 e 1 0 ]
 {
 "206
@@ -520,7 +574,7 @@ P_NC 255
 [v eeprom_Test@read_char read_char `ui  1 a 2 68 ]
 "220
 } 0
-"63 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\eeprom.c
+"63 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/eeprom.c
 [v _EEPROM_WriteByte EEPROM_WriteByte `(v  1 e 1 0 ]
 {
 "65
@@ -536,12 +590,12 @@ P_NC 255
 [v EEPROM_ReadByte@v_eepromAddress_u16 v_eepromAddress_u16 `ui  1 p 2 0 ]
 "101
 } 0
-"194 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\main.c
+"194 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\Pic18f4520StarterBoardTest\main.c
 [v _adc_Test adc_Test `(v  1 e 1 0 ]
 {
 "202
 } 0
-"413 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\uart.c
+"413 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/uart.c
 [v _UART_Printf UART_Printf `(v  1 e 1 0 ]
 {
 "420
@@ -595,27 +649,27 @@ P_NC 255
 [v UART_TxChar@v_uartData_u8 v_uartData_u8 `uc  1 a 1 0 ]
 "150
 } 0
-"54 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\adc.c
+"54 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/adc.c
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 {
-"60
+"59
 } 0
-"77
+"76
 [v _ADC_GetAdcValue ADC_GetAdcValue `(ui  1 e 2 0 ]
 {
 [v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 wreg ]
 [v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 wreg ]
-"80
+"79
 [v ADC_GetAdcValue@var_adcChannel_u8 var_adcChannel_u8 `uc  1 a 1 6 ]
-"89
+"88
 } 0
-"56 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\delay.c
+"56 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/delay.c
 [v _DELAY_us DELAY_us `(v  1 e 1 0 ]
 {
 [v DELAY_us@us_count us_count `ui  1 p 2 0 ]
 "62
 } 0
-"123 F:\GitHub\PIC\Pic18f4520\Pic18f4520StarterBoardTest\uart.c
+"123 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/uart.c
 [v _UART_RxChar UART_RxChar `(uc  1 e 1 0 ]
 {
 "128

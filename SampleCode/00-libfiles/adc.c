@@ -53,9 +53,9 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 ***************************************************************************************************/
 void ADC_Init()
  {
-   ADCON0=0x00;        // sampling freq=osc_freq/2,ADC off initially
-   ADCON1=0x80;  /* All pins are configured as Analog input pins and
-                          the 10-bit ADC result is right justified */  
+   ADCON0 = 0x00;  // sampling freq=osc_freq/2,ADC off initially
+   ADCON1 = 0x00;  // All pins are configured as Analog input pins
+   ADCON2 = 0x82;  //the 10-bit ADC result is right justified  and Sampling freq is 4TAD                           
 }
 
 
@@ -76,7 +76,7 @@ void ADC_Init()
 uint16_t ADC_GetAdcValue(uint8_t var_adcChannel_u8)
  {
  
-    ADCON0= (var_adcChannel_u8<<3);   //select particular channel and turn ON adc
+    ADCON0= (var_adcChannel_u8<<2);   //select particular channel and turn ON adc
 	ADON = 1;
     DELAY_us(10);
    

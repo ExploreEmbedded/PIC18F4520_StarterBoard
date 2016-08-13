@@ -3923,7 +3923,7 @@ extern volatile __bit nWR @ (((unsigned) &PORTE)*8) + 1;
 
 extern volatile __bit nWRITE @ (((unsigned) &SSPSTAT)*8) + 2;
 
-# 69 "stdutils.h"
+# 69 "../00-libfiles\stdutils.h"
 typedef signed char sint8_t;
 typedef unsigned char uint8_t;
 
@@ -3986,7 +3986,7 @@ extern __nonreentrant void _delaywdt(unsigned long);
 extern __nonreentrant void _delay3(unsigned char);
 
 
-# 311 "stdutils.h"
+# 311 "../00-libfiles\stdutils.h"
 #pragma config OSC = HS
 #pragma config FCMEN = OFF
 #pragma config IESO = OFF
@@ -4041,16 +4041,16 @@ extern __nonreentrant void _delay3(unsigned char);
 
 #pragma config EBTRB = OFF
 
-# 53 "adc.h"
+# 53 "../00-libfiles\adc.h"
 void ADC_Init();
 uint16_t ADC_GetAdcValue(uint8_t var_adcChannel_u8);
 
-# 67 "delay.h"
+# 67 "../00-libfiles\delay.h"
 void DELAY_us(uint16_t us_count);
 void DELAY_ms(uint16_t ms_count);
 void DELAY_sec(uint16_t var_delaySecCount_u16);
 
-# 48 "gpio.h"
+# 48 "../00-libfiles\gpio.h"
 typedef enum
 {
 PA_0,PA_1,PA_2,PA_3,PA_4,PA_5,PA_6,PA_7,
@@ -4066,7 +4066,7 @@ void GPIO_PinDirection(gpioPins_et enm_pinNumber, uint8_t var_pinDirn_u8);
 void GPIO_PinWrite(gpioPins_et enm_pinNumber, uint8_t var_pinValue_u8);
 uint8_t GPIO_PinRead(gpioPins_et enm_pinNumber);
 
-# 123 "lcd.h"
+# 123 "../00-libfiles\lcd.h"
 typedef struct
 {
 uint8_t v_MaxSupportedLines_U8;
@@ -4110,7 +4110,7 @@ gpioPins_et D5,
 gpioPins_et D6,
 gpioPins_et D7 );
 
-# 99 "uart.h"
+# 99 "../00-libfiles\uart.h"
 void UART_Init(uint32_t v_baudRate_u32);
 void UART_SetBaudRate(uint32_t v_baudRate_u32);
 void UART_TxChar(char v_uartData_u8);
@@ -4121,7 +4121,7 @@ void UART_TxNumber(uint8_t v_numericSystem_u8, uint32_t v_number_u32, uint8_t v_
 void UART_TxFloatNumber(float v_floatNumber_f32);
 void UART_Printf(const char *argList, ...);
 
-# 74 "eeprom.h"
+# 74 "../00-libfiles\eeprom.h"
 void EEPROM_WriteByte(uint16_t v_eepromAddress_u16, uint8_t v_eepromData_u8);
 uint8_t EEPROM_ReadByte(uint16_t v_eepromAddress_u16);
 void EEPROM_WriteNBytes(uint16_t v_eepromAddress_u16, uint8_t *ptr_ramAddress_u8, uint16_t v_numOfBytes_u16);

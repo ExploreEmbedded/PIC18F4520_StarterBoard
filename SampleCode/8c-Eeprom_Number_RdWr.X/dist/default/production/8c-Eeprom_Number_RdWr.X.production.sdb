@@ -1,0 +1,82 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"63 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/eeprom.c
+[v _EEPROM_WriteByte EEPROM_WriteByte `(v  1 e 1 0 ]
+"93
+[v _EEPROM_ReadByte EEPROM_ReadByte `(uc  1 e 1 0 ]
+"91 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode/00-libfiles/uart.c
+[v _UART_SetBaudRate UART_SetBaudRate `(v  1 e 1 0 ]
+"123
+[v _UART_RxChar UART_RxChar `(uc  1 e 1 0 ]
+"145
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+"169
+[v _UART_TxString UART_TxString `(v  1 e 1 0 ]
+"260
+[v _UART_TxNumber UART_TxNumber `(v  1 e 1 0 ]
+"350
+[v _UART_TxFloatNumber UART_TxFloatNumber `(v  1 e 1 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.36\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v1.36\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"35 C:\Program Files\Microchip\xc8\v1.36\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.36\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.36\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"44 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\8c-Eeprom_Number_RdWr.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"2019 C:\Program Files\Microchip\xc8\v1.36\include\pic18f4520.h
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"3120
+[v _EECON1 EECON1 `VEuc  1 e 1 @4006 ]
+"3185
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"3191
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"3197
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"3203
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3412
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3709
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3720
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3731
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"7352
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"7862
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"8232
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"44 F:\GitHub\PIC\PIC18F4520_StarterBoard\SampleCode\8c-Eeprom_Number_RdWr.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"47
+} 0

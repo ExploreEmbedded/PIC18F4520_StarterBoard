@@ -71,7 +71,7 @@ PreCompile configuration to enable or disable the API's.
 #define    Enable_UART_TxString          1
 #define    Enable_UART_RxString          1
 #define    Enable_UART_TxNumber          1
-#define    Enable_UART_TxFloatNumber     0
+#define    Enable_UART_TxFloatNumber     1
 #define    Enable_UART_Printf            1
 /**************************************************************************************************/
 
